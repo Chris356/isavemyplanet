@@ -38,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		BED14DBA23F2C7F300B19EF7 /* view2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = view2.swift; path = ../../formNav/formNav/emplate/view2.swift; sourceTree = "<group>"; };
+		BED14DBF23F2EA6C00B19EF7 /* SearchRepositoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryResponse.swift; sourceTree = "<group>"; };
+		BED14DC123F2EA6C00B19EF7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BED14DC223F2EA6C00B19EF7 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		BEF93D6323F182C100BFE27E /* iSaveMyPlanetBetaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSaveMyPlanetBetaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF93D6623F182C100BFE27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF93D6823F182C100BFE27E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BED14DBE23F2EA6C00B19EF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BED14DBF23F2EA6C00B19EF7 /* SearchRepositoryResponse.swift */,
+				BED14DC123F2EA6C00B19EF7 /* User.swift */,
+				BED14DC223F2EA6C00B19EF7 /* Repository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BEF93D5A23F182C100BFE27E = {
 			isa = PBXGroup;
 			children = (
+				BED14DBE23F2EA6C00B19EF7 /* Models */,
 				BEF93D6523F182C100BFE27E /* iSaveMyPlanetBetaTest */,
 				BEF93D7F23F182C200BFE27E /* iSaveMyPlanetBetaTestTests */,
 				BEF93D8A23F182C200BFE27E /* iSaveMyPlanetBetaTestUITests */,

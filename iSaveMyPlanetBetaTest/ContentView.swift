@@ -77,11 +77,12 @@ struct SearchBar: UIViewRepresentable {
     }
 }
 struct apercuArticle {
-    @State private var photo: String
-    @State private var name: String
-    @State private var title: String
-    @State private var resume: String
+    @State private var photo: String //logo de l'organisme
+    @State private var name: String // Nom de l'organisme
+    @State private var title: String // titre de l'article
+    @State private var resume: String //
     @State private var favoris: String
+    @State private var date: Date
     
     
 }
