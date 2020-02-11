@@ -13,7 +13,35 @@ struct ContentView: View {
     
     var body: some View {
         VStack (){
-            SearchBar(text: $searchText)
+        TabView {
+            NavigationView {
+                SearchBar(text: $searchText)
+            }
+            
+        .tabItem {
+            Image(systemName: "book")
+        }
+        
+        Text("la page avec la carte des events")
+            .tabItem{
+                Image(systemName: "location")
+        }
+        
+        Text("la page des favoris articles et events")
+            .tabItem{
+                Image(systemName: "star")
+        }
+        
+        Text("la page d'accès au jeu")
+            .tabItem {
+                Image(systemName: "gamecontroller")
+                }
+        
+        Text("profile")
+            .tabItem {
+                Image(systemName: "person.crop.circle")
+        }
+    }
         }
     }
 }

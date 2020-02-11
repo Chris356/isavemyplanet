@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BED14DBB23F2C7F300B19EF7 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED14DBA23F2C7F300B19EF7 /* view2.swift */; };
 		BEF93D6723F182C100BFE27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF93D6623F182C100BFE27E /* AppDelegate.swift */; };
 		BEF93D6923F182C100BFE27E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF93D6823F182C100BFE27E /* SceneDelegate.swift */; };
 		BEF93D6C23F182C100BFE27E /* iSaveMyPlanetBetaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF93D6A23F182C100BFE27E /* iSaveMyPlanetBetaTest.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BED14DBA23F2C7F300B19EF7 /* view2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = view2.swift; path = ../../formNav/formNav/emplate/view2.swift; sourceTree = "<group>"; };
 		BEF93D6323F182C100BFE27E /* iSaveMyPlanetBetaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSaveMyPlanetBetaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF93D6623F182C100BFE27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF93D6823F182C100BFE27E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				BEF93D6623F182C100BFE27E /* AppDelegate.swift */,
 				BEF93D6823F182C100BFE27E /* SceneDelegate.swift */,
 				BEF93D6D23F182C100BFE27E /* ContentView.swift */,
+				BED14DBA23F2C7F300B19EF7 /* view2.swift */,
 				BEF93D6F23F182C200BFE27E /* Assets.xcassets */,
 				BEF93D7423F182C200BFE27E /* LaunchScreen.storyboard */,
 				BEF93D7723F182C200BFE27E /* Info.plist */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED14DBB23F2C7F300B19EF7 /* view2.swift in Sources */,
 				BEF93D6723F182C100BFE27E /* AppDelegate.swift in Sources */,
 				BEF93D6C23F182C100BFE27E /* iSaveMyPlanetBetaTest.xcdatamodeld in Sources */,
 				BEF93D6E23F182C100BFE27E /* ContentView.swift in Sources */,
